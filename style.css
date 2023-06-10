@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.colorme {
+  background-color: #fff;
+  height: 100vh;
+  margin: auto;
+  width: 100vw;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.colordiv {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(177, 224, 224);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.colorbtn {
+  margin-bottom: 10px;
+  border-radius: 10%;
+  height: 30px;
+  width: 80px;
+  background-color: dodgerblue;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: solid;
+}
